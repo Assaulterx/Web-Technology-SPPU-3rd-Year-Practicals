@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="format.xml"?>
+<!DOCTYPE Organization SYSTEM "employees.dtd">
+
+<Organization>
+  <Employee id="E101">
+    <Name>Alice Thompson</Name>
+    <Role>Systems Architect</Role>
+    <Department>IT</Department>
+    <Salary>105000</Salary>
+  </Employee>
+  <Employee id="E102">
+    <Name>Bob Richards</Name>
+    <Role>Financial Analyst</Role>
+    <Department>Finance</Department>
+    <Salary>78000</Salary>
+  </Employee>
+  <Employee id="E103">
+    <Name>Clara Oswald</Name>
+    <Role>Marketing Lead</Role>
+    <Department>Marketing</Department>
+    <Salary>82000</Salary>
+  </Employee>
+</Organization>
