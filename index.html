@@ -1,119 +1,48 @@
 <!DOCTYPE html>
-<html lang=""en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Website Evaluation Table</title>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-        }
-        th, td{
-            border: 1px solid #000000;
-            padding: 8px;
-            text-align: left;
-            vertical-align: top;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calc</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <table>
-        <thead>
-            <tr>
-                <th>Sr. No.</th>
-                <th>Website URL</th>
-                <th>Purpose of the website</th>
-                <th>Things liked in the website</th>
-                <th>Things disliked in the website</th>
-                <th>Overall Evaluation</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1.</td>
-                <td><a href="https://www.google.com" target="_blank">https://www.google.com</a></td>
-                <td>Search engine for finding information, websites, images, videos, and more.</td>
-                <td>Simple interface, fast results, powerful search suggestions, and relevant filtering options.</td>
-                <td>Home page is very minimal and can feel too plain; a lot of data collection for ads.</td>
-                <td>Excellent for quick information retrieval and everyday use.</td>
-            </tr>
-            <tr>
-                <td>2.</td>
-                <td><a href="https://youtube.com">https://www.youtube.com</a></td>
-                <td>Video sharing and streaming platform for education, entertainment, and content creation.</td>
-                <td>Huge content library, good recommendation system, and support for creators.</td>
-                <td>Too many ads on free account and sometimes distracting homepage recommendations.</td>
-                <td>Very useful platform but can be overwhelming without personalization.</td>
-            </tr>
-            <tr>
-                <td>3.</td>
-                <td><a href="https://www.github.com">https://github.com</a></td>
-                <td>Code hosting and collaboration platform for developers using Git.</td>
-                <td>Clean repository view, good issue tracking, pull requests, and integration with CI/CD tools.</td>
-                <td>Can be confusing for complete beginners; some advanced features are hidden in menus.</td>
-                <td>Great tool for version control and open-source collaboration.</td>
-            </tr>
-            <tr>
-                <td>4.</td>
-                <td><a href="https://stcakoverflow.com">https://stackoverflow.com</a></td>
-                <td>Q&A site for programming and technical questions.</td>
-                <td>High-quality answers, voting system, and wide coverage of programming topics.</td>
-                <td>Some older answers maybe outdated; community can feel strict to new users.</td>
-                <td>Essential resource for developers troubleshooting code.</td>
-            </tr>
-            <tr>
-                <td>5.</td>
-                <td><a href="https://developer.mozilla.org">https://developer.mozilla.org</a></td>
-                <td>Documentation and learning resources for web technologies (HTML, CSS, Javascript, etc.).</td>
-                <td>Detailed documentation, clear examples, and up-to-date browser compatibility tables.</td>
-                <td>Some pages are long and dense, which can be hard to skim quickly.</td>
-                <td>Excellent reference site for web development.</td>
-            </tr>
-            <tr>
-                <td>6.</td>
-                <td><a href="https://www.w3schools.com">https://www.w3schools.com</a></td>
-                <td>Tutorial website for learning basic web development and programming concepts.</td>
-                <td>Begginer-friendly examples, interactive editor, and simple naviagtion.</td>
-                <td>Some explainations are oversimplified; not always the most modern practices.</td>
-                <td>Good starting point for beginners learning web technologies.</td>
-            </tr>
-            <tr>
-                <td>7.</td>
-                <td><a href="https://www.linkedin.com">https://www.linkedin.com</a></td>
-                <td>Professional networking platform for jobs, connection, and sharing achievements.</td>
-                <td>Strong profiule structure, job recommendations, and networking features.</td>
-                <td>Feed can feel cluttered; many notifications and sponsored posts.</td>
-                <td>Very useful for career growth and professional visibility.</td>
-            </tr>
-            <tr>
-                <td>8.</td>
-                <td><a href="https://www.medium.com">https://www.medium.com</a></td>
-                <td>Blogging platform for writers to publish and stories.</td>
-                <td>Clean reading experience, good typography, and topic-based discovery.</td>
-                <td>Paywall limits the number of free articles; sometimes too many generic posts.</td>
-                <td>Good platform for long-form reading and writing.</td>
-            </tr>
-            <tr>
-                <td>9.</td>
-                <td><a href="https://www.netflix.com">https://www.netflix.com</a></td>
-                <td>Streaming serivce for movies, series, and documentaries.</td>
-                <td>Easy-to-use interface, personalized recommendations, and high-quality streaming.</td>
-                <td>Content library varies by region; sometimes hard to discover niche content.</td>
-                <td> Great for entertainment with a smooth user experience.</td>
-            </tr>
-            <tr>
-                <td>10.</td>
-                <td><a href="https://www.amazon.in">https://amazon.in</a></td>
-                <td>E-commerce platform for buying a wide variety of products online.</td>
-                <td>Wide product range, fast delivery options, and detailed reviews.</td>
-                <td>Homepage can feel busy; sponsored products sometimes appear before relevant results.</td>
-                <td>Very convienient for online shopping with reliable service.</td>
-            </tr>
-        </tbody>
-    </table>
+    <script src="file.js"></script>
+    <h1>BASIC CALCULATOR</h1>
+		  <div class="main-div">
+		           
+				  
+				            <div class="screen" id="screen"><p></p></div>
+							<div class="clear" id="clear">CLR</div>
+					
+				
+				               <ul class="number-div">
+							             <li>1</li>
+										 <li>2</li>
+										 <li>3</li>
+									     <li>+</li>
+										 <li>4</li>
+										 <li>5</li>
+										 <li>6</li>
+									     <li>x</li>
+										 <li>7</li>
+										 <li>8</li>
+										 <li>9</li>
+									     <li>-</li>
+										 <li>0</li>
+										 <li>.</li>
+										 <li id="equals">=</li>
+									     <li>÷</li>
+										 
+										 
+							   </ul>
+				   
+		  </div>
+		  
 </body>
+<br>
+<div>
+  <center class="copyright"><p>Copyright © 2023 Mr.Pavankumar. All Rights are  reserved</p></center>   
+</div>
 </html>
